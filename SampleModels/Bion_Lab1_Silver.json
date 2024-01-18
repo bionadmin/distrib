@@ -1,0 +1,1718 @@
+{
+  "Settings": [
+    {
+      "Name": "Change Hash Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Database Override",
+      "Value": "Silver_XXX",
+      "Type": "Text"
+    },
+    {
+      "Name": "Databricks URL",
+      "Value": "https://adb-2555323752677958.18.azuredatabricks.net/",
+      "Type": "Text"
+    },
+    {
+      "Name": "Delete Not in Source Query",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Delete Using Delete Query",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Dependencies Deployment Path",
+      "Value": "/Repos/<ENV:my_email>/Bion_Sandbox/Databricks/Notebooks/Silver/common/",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Client ID Scope Key",
+      "Value": "datalakeclientid",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Client Secret Scope Key",
+      "Value": "datalakesecret",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Container Default",
+      "Value": "silver",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Container Scope Key",
+      "Value": "datalakestoragecontainersilver",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Folder Default",
+      "Value": "Silver_XXX",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Folder Scope Key",
+      "Value": "datalakestoragefoldersilver",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest S3 Bucket Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Dest Secret Scope",
+      "Value": "BionScope",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Storage Acct Default",
+      "Value": "stbionsandbox",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Storage Acct Scope Key",
+      "Value": "datalakestorageaccount",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Subfolder Default",
+      "Value": "SilverAW_XXX",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Tenant ID Scope Key",
+      "Value": "datalaketenantid",
+      "Type": "Text"
+    },
+    {
+      "Name": "Dest Use Path Template",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Disable All Mounts",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Display JobID in Workflow",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Effective Dates Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Include Optimize In Workflow",
+      "Value": "True",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Include Schema In Workflow",
+      "Value": "True",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Include Table Create",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Notebook Deployment Path",
+      "Value": "/Repos/<ENV:my_email>/Bion_Sandbox/Databricks/Notebooks/Silver/process/",
+      "Type": "Text"
+    },
+    {
+      "Name": "Post Run Notebook Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Pre Run Notebook Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Silver Source File",
+      "Value": "<schema>_<table>.<extension>",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Add Missing Columns",
+      "Value": "True",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source Client ID Scope Key",
+      "Value": "datalakeclientid",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Client Secret Scope Key",
+      "Value": "datalakesecret",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Container Default",
+      "Value": "bronze",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Container Scope Key",
+      "Value": "datalakestoragecontainerbronze",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Expect Folder",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source File Extension",
+      "Value": "parquet",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source File Pattern Is Regex",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source File Type",
+      "Value": "parquet",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Folder Default",
+      "Value": "adventureworks",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Folder Scope Key",
+      "Value": "datalakestoragefolderbronze",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source HWM Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source Is File Based",
+      "Value": "True",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source S3 Bucket Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Source Secret Scope",
+      "Value": "BionScope",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Storage Acct Default",
+      "Value": "stbionsandbox",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Storage Acct Scope Key",
+      "Value": "datalakestorageaccount",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Tenant ID Scope Key",
+      "Value": "datalaketenantid",
+      "Type": "Text"
+    },
+    {
+      "Name": "Source Use Path Template",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Template Type",
+      "Value": "Databricks Silver",
+      "Type": "Text"
+    },
+    {
+      "Name": "Unity Catalog Enabled",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Use Managed Tables",
+      "Value": "False",
+      "Type": "Boolean"
+    },
+    {
+      "Name": "Vacuum",
+      "Value": "False",
+      "Type": "Boolean"
+    }
+  ],
+  "CustomModelSettingDefinitions": [
+    {
+      "SettingName": "Template Type",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Is File Based",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source File Type",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source File Extension",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest S3 Bucket Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source S3 Bucket Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Storage Acct Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Container Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Folder Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Expect Folder",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source File Pattern Is Regex",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Silver Source File",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Add Missing Columns",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Secret Scope",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Storage Acct Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Container Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Folder Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Unity Catalog Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Disable All Mounts",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Use Path Template",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Tenant ID Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Client ID Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source Client Secret Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Database Override",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Use Managed Tables",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Storage Acct Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Container Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Folder Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Subfolder Default",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Secret Scope",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Storage Acct Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Container Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Folder Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Use Path Template",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Tenant ID Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Client ID Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dest Client Secret Scope Key",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Databricks URL",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Notebook Deployment Path",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Dependencies Deployment Path",
+      "Type": "Text",
+      "Options": ""
+    },
+    {
+      "SettingName": "Effective Dates Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Delete Using Delete Query",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Delete Not in Source Query",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Change Hash Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Source HWM Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Include Table Create",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Vacuum",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Pre Run Notebook Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Post Run Notebook Enabled",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Include Optimize In Workflow",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Include Schema In Workflow",
+      "Type": "Boolean",
+      "Options": ""
+    },
+    {
+      "SettingName": "Display JobID in Workflow",
+      "Type": "Boolean",
+      "Options": ""
+    }
+  ],
+  "CustomTableSettingDefinitions": [],
+  "CustomColumnSettingDefinitions": [],
+  "Tables": [
+    {
+      "Name": "BusinessEntity",
+      "Settings": [
+        {
+          "Name": "Custom Beginning Cell",
+          "Value": "def load_file_into_dataframe(file):\r\n     df_custom = spark.read.parquet(file)\r\n     return df_custom",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom End Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom Pre Query Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceFile",
+          "Value": "<schema>_<table>.<extension>",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceSchema",
+          "Value": "Person",
+          "Type": "Text"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "BusinessEntityID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "40073",
+              "Type": "Text"
+            },
+            {
+              "Name": "PrimaryKey",
+              "Value": "True",
+              "Type": "Boolean"
+            }
+          ]
+        },
+        {
+          "Name": "rowguid",
+          "Type": "STRING",
+          "Length": 16,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "41959",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ModifiedDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "35938",
+              "Type": "Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Person",
+      "Settings": [
+        {
+          "Name": "Custom Beginning Cell",
+          "Value": "def load_file_into_dataframe(file):\r\n     df_custom = spark.read.parquet(file)\r\n     return df_custom",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom End Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom Pre Query Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceFile",
+          "Value": "<schema>_<table>.<extension>",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceSchema",
+          "Value": "Person",
+          "Type": "Text"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "PersonType",
+          "Type": "STRING",
+          "Length": 4,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "28927",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "NameStyle",
+          "Type": "BOOLEAN",
+          "Length": 1,
+          "Precision": 1,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "73533",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Title",
+          "Type": "STRING",
+          "Length": 16,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "20558",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "FirstName",
+          "Type": "STRING",
+          "Length": 100,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "75375",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "MiddleName",
+          "Type": "STRING",
+          "Length": 100,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "87391",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "LastName",
+          "Type": "STRING",
+          "Length": 100,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "74071",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Suffix",
+          "Type": "STRING",
+          "Length": 20,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "66552",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "EmailPromotion",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "89056",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "AdditionalContactInfo",
+          "Type": "STRING",
+          "Length": -1,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "77297",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Demographics",
+          "Type": "STRING",
+          "Length": -1,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "19576",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "rowguid",
+          "Type": "STRING",
+          "Length": 16,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "34273",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ModifiedDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "40198",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "BusinessEntityID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "70787",
+              "Type": "Text"
+            },
+            {
+              "Name": "PrimaryKey",
+              "Value": "True",
+              "Type": "Boolean"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "BusinessEntityID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R28",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Person",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "BusinessEntity",
+              "Type": "Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "SalesOrderDetail",
+      "Settings": [
+        {
+          "Name": "Custom Beginning Cell",
+          "Value": "def load_file_into_dataframe(file):\r\n     df_custom = spark.read.parquet(file)\r\n     return df_custom",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom End Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom Pre Query Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceFile",
+          "Value": "<schema>_<table>.<extension>",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceSchema",
+          "Value": "Sales",
+          "Type": "Text"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "UnitPrice",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "16146",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "UnitPriceDiscount",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "40603",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "LineTotal",
+          "Type": "DECIMAL",
+          "Length": 17,
+          "Precision": 38,
+          "Scale": 6,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "77415",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "rowguid",
+          "Type": "STRING",
+          "Length": 16,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "73931",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ModifiedDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "75449",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SalesOrderDetailID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "60458",
+              "Type": "Text"
+            },
+            {
+              "Name": "PrimaryKey",
+              "Value": "True",
+              "Type": "Boolean"
+            }
+          ]
+        },
+        {
+          "Name": "CarrierTrackingNumber",
+          "Type": "STRING",
+          "Length": 50,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "95045",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "OrderQty",
+          "Type": "SMALLINT",
+          "Length": 2,
+          "Precision": 5,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "99634",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SalesOrderID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "96117",
+              "Type": "Text"
+            },
+            {
+              "Name": "PrimaryKey",
+              "Value": "True",
+              "Type": "Boolean"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "SalesOrderID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R60",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "SalesOrderHeader",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ProductID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "64609",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "ProductID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R61",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "SpecialOfferProduct",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SpecialOfferID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "11623",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "SpecialOfferID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R61",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "SpecialOfferProduct",
+              "Type": "Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "SalesOrderHeader",
+      "Settings": [
+        {
+          "Name": "Custom Beginning Cell",
+          "Value": "def load_file_into_dataframe(file):\r\n     df_custom = spark.read.parquet(file)\r\n     return df_custom",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom End Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "Custom Pre Query Cell",
+          "Value": "",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceFile",
+          "Value": "<schema>_<table>.<extension>",
+          "Type": "Text"
+        },
+        {
+          "Name": "SilverSourceSchema",
+          "Value": "Sales",
+          "Type": "Text"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "SalesOrderID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "61624",
+              "Type": "Text"
+            },
+            {
+              "Name": "PrimaryKey",
+              "Value": "True",
+              "Type": "Boolean"
+            }
+          ]
+        },
+        {
+          "Name": "RevisionNumber",
+          "Type": "STRING",
+          "Length": 1,
+          "Precision": 3,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "21609",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "OrderDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "46294",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "DueDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "32404",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ShipDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "90418",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Status",
+          "Type": "STRING",
+          "Length": 1,
+          "Precision": 3,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "42283",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "OnlineOrderFlag",
+          "Type": "BOOLEAN",
+          "Length": 1,
+          "Precision": 1,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "93807",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SalesOrderNumber",
+          "Type": "STRING",
+          "Length": 50,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "40607",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "PurchaseOrderNumber",
+          "Type": "STRING",
+          "Length": 50,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "18176",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "AccountNumber",
+          "Type": "STRING",
+          "Length": 30,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "44281",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SubTotal",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "45815",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "TaxAmt",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "27011",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Freight",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "63047",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "TotalDue",
+          "Type": "DOUBLE",
+          "Length": 8,
+          "Precision": 19,
+          "Scale": 4,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "27531",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "Comment",
+          "Type": "STRING",
+          "Length": 256,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "96977",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "rowguid",
+          "Type": "STRING",
+          "Length": 16,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "64893",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ModifiedDate",
+          "Type": "TIMESTAMP",
+          "Length": 8,
+          "Precision": 23,
+          "Scale": 3,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "46831",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "CreditCardApprovalCode",
+          "Type": "STRING",
+          "Length": 15,
+          "Precision": 0,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "30387",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "BillToAddressID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "77758",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "AddressID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R62",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Person",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "Address",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ShipToAddressID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "76467",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "AddressID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R63",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Person",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "Address",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "CreditCardID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "55584",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "CreditCardID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R64",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "CreditCard",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "CurrencyRateID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "49469",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "CurrencyRateID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R65",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "CurrencyRate",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "CustomerID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "77150",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "CustomerID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R66",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "Customer",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "SalesPersonID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "90695",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "BusinessEntityID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R67",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "SalesPerson",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "TerritoryID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "49067",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "TerritoryID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R68",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Sales",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "SalesTerritory",
+              "Type": "Text"
+            }
+          ]
+        },
+        {
+          "Name": "ShipMethodID",
+          "Type": "INT",
+          "Length": 4,
+          "Precision": 10,
+          "Scale": 0,
+          "IsIdentity": false,
+          "Settings": [
+            {
+              "Name": "Id",
+              "Value": "71554",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipColumn",
+              "Value": "ShipMethodID",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipName",
+              "Value": "R69",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipSchema",
+              "Value": "Purchasing",
+              "Type": "Text"
+            },
+            {
+              "Name": "RelationshipTable",
+              "Value": "ShipMethod",
+              "Type": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
